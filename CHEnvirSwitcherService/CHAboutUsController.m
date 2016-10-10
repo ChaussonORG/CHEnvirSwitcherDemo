@@ -102,7 +102,7 @@
 
 - (void)assemblePasswordwithButtonTag:(NSInteger)tag{
     
-    NSString *charactor = [NSString stringWithFormat:@"%ld",tag];
+    NSString *charactor = [NSString stringWithFormat:@"%ld",(long)tag];
     
     [self.password appendString:charactor];
     
