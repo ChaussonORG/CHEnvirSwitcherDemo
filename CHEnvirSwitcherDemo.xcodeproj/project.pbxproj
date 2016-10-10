@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D37322A31D3DC55700C47DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D37322A21D3DC55700C47DD9 /* main.m */; };
+		D37322A61D3DC55700C47DD9 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D37322A51D3DC55700C47DD9 /* CHAppDelegate.m */; };
+		D37322A91D3DC55700C47DD9 /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37322A81D3DC55700C47DD9 /* CHViewController.m */; };
+		D37322AC1D3DC55700C47DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37322AA1D3DC55700C47DD9 /* Main.storyboard */; };
+		D37322AE1D3DC55700C47DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37322AD1D3DC55700C47DD9 /* Assets.xcassets */; };
+		D37322B11D3DC55700C47DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37322AF1D3DC55700C47DD9 /* LaunchScreen.storyboard */; };
+		D37322BC1D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37322BB1D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests.m */; };
+		D37322C71D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37322C61D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests.m */; };
+		D3AC212C1D9E3807005F5D95 /* CHAboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC21241D9E3807005F5D95 /* CHAboutUsController.m */; };
+		D3AC212D1D9E3807005F5D95 /* CHChangeEnvironmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC21261D9E3807005F5D95 /* CHChangeEnvironmentView.m */; };
+		D3AC212E1D9E3807005F5D95 /* CHEnviroConfigure.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3AC21271D9E3807005F5D95 /* CHEnviroConfigure.plist */; };
+		D3AC212F1D9E3807005F5D95 /* CHEnvironmentSupply.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC21291D9E3807005F5D95 /* CHEnvironmentSupply.m */; };
+		D3AC21301D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC212B1D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D37322B81D3DC55700C47DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37322961D3DC55700C47DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D373229D1D3DC55700C47DD9;
+			remoteInfo = CHEnvirSwitcherDemo;
+		};
+		D37322C31D3DC55700C47DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37322961D3DC55700C47DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D373229D1D3DC55700C47DD9;
+			remoteInfo = CHEnvirSwitcherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D373229E1D3DC55700C47DD9 /* CHEnvirSwitcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHEnvirSwitcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37322A21D3DC55700C47DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D37322A41D3DC55700C47DD9 /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		D37322A51D3DC55700C47DD9 /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		D37322A71D3DC55700C47DD9 /* CHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHViewController.h; sourceTree = "<group>"; };
+		D37322A81D3DC55700C47DD9 /* CHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHViewController.m; sourceTree = "<group>"; };
+		D37322AB1D3DC55700C47DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D37322AD1D3DC55700C47DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D37322B01D3DC55700C47DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D37322B21D3DC55700C47DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37322B71D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHEnvirSwitcherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37322BB1D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHEnvirSwitcherDemoTests.m; sourceTree = "<group>"; };
+		D37322BD1D3DC55700C47DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37322C21D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHEnvirSwitcherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37322C61D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHEnvirSwitcherDemoUITests.m; sourceTree = "<group>"; };
+		D37322C81D3DC55700C47DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AC21231D9E3807005F5D95 /* CHAboutUsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAboutUsController.h; sourceTree = "<group>"; };
+		D3AC21241D9E3807005F5D95 /* CHAboutUsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAboutUsController.m; sourceTree = "<group>"; };
+		D3AC21251D9E3807005F5D95 /* CHChangeEnvironmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHChangeEnvironmentView.h; sourceTree = "<group>"; };
+		D3AC21261D9E3807005F5D95 /* CHChangeEnvironmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHChangeEnvironmentView.m; sourceTree = "<group>"; };
+		D3AC21271D9E3807005F5D95 /* CHEnviroConfigure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CHEnviroConfigure.plist; sourceTree = "<group>"; };
+		D3AC21281D9E3807005F5D95 /* CHEnvironmentSupply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHEnvironmentSupply.h; sourceTree = "<group>"; };
+		D3AC21291D9E3807005F5D95 /* CHEnvironmentSupply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHEnvironmentSupply.m; sourceTree = "<group>"; };
+		D3AC212A1D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EnvironmentSwitcher.h"; sourceTree = "<group>"; };
+		D3AC212B1D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EnvironmentSwitcher.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D373229B1D3DC55700C47DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37322B41D3DC55700C47DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37322BF1D3DC55700C47DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D37322951D3DC55700C47DD9 = {
+			isa = PBXGroup;
+			children = (
+				D3AC21041D9E1857005F5D95 /* CHEnvirSwitcherService */,
+				D37322A01D3DC55700C47DD9 /* CHEnvirSwitcherDemo */,
+				D37322BA1D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests */,
+				D37322C51D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests */,
+				D373229F1D3DC55700C47DD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D373229F1D3DC55700C47DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D373229E1D3DC55700C47DD9 /* CHEnvirSwitcherDemo.app */,
+				D37322B71D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests.xctest */,
+				D37322C21D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37322A01D3DC55700C47DD9 /* CHEnvirSwitcherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D37322A41D3DC55700C47DD9 /* CHAppDelegate.h */,
+				D37322A51D3DC55700C47DD9 /* CHAppDelegate.m */,
+				D37322A71D3DC55700C47DD9 /* CHViewController.h */,
+				D37322A81D3DC55700C47DD9 /* CHViewController.m */,
+				D37322AA1D3DC55700C47DD9 /* Main.storyboard */,
+				D37322AD1D3DC55700C47DD9 /* Assets.xcassets */,
+				D37322AF1D3DC55700C47DD9 /* LaunchScreen.storyboard */,
+				D37322B21D3DC55700C47DD9 /* Info.plist */,
+				D37322A11D3DC55700C47DD9 /* Supporting Files */,
+			);
+			path = CHEnvirSwitcherDemo;
+			sourceTree = "<group>";
+		};
+		D37322A11D3DC55700C47DD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37322A21D3DC55700C47DD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D37322BA1D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D37322BB1D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests.m */,
+				D37322BD1D3DC55700C47DD9 /* Info.plist */,
+			);
+			path = CHEnvirSwitcherDemoTests;
+			sourceTree = "<group>";
+		};
+		D37322C51D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D37322C61D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests.m */,
+				D37322C81D3DC55700C47DD9 /* Info.plist */,
+			);
+			path = CHEnvirSwitcherDemoUITests;
+			sourceTree = "<group>";
+		};
+		D3AC21041D9E1857005F5D95 /* CHEnvirSwitcherService */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC21231D9E3807005F5D95 /* CHAboutUsController.h */,
+				D3AC21241D9E3807005F5D95 /* CHAboutUsController.m */,
+				D3AC21251D9E3807005F5D95 /* CHChangeEnvironmentView.h */,
+				D3AC21261D9E3807005F5D95 /* CHChangeEnvironmentView.m */,
+				D3AC21271D9E3807005F5D95 /* CHEnviroConfigure.plist */,
+				D3AC21281D9E3807005F5D95 /* CHEnvironmentSupply.h */,
+				D3AC21291D9E3807005F5D95 /* CHEnvironmentSupply.m */,
+				D3AC212A1D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.h */,
+				D3AC212B1D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.m */,
+			);
+			path = CHEnvirSwitcherService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D373229D1D3DC55700C47DD9 /* CHEnvirSwitcherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37322CB1D3DC55700C47DD9 /* Build configuration list for PBXNativeTarget "CHEnvirSwitcherDemo" */;
+			buildPhases = (
+				D373229A1D3DC55700C47DD9 /* Sources */,
+				D373229B1D3DC55700C47DD9 /* Frameworks */,
+				D373229C1D3DC55700C47DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHEnvirSwitcherDemo;
+			productName = CHEnvirSwitcherDemo;
+			productReference = D373229E1D3DC55700C47DD9 /* CHEnvirSwitcherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D37322B61D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37322CE1D3DC55700C47DD9 /* Build configuration list for PBXNativeTarget "CHEnvirSwitcherDemoTests" */;
+			buildPhases = (
+				D37322B31D3DC55700C47DD9 /* Sources */,
+				D37322B41D3DC55700C47DD9 /* Frameworks */,
+				D37322B51D3DC55700C47DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37322B91D3DC55700C47DD9 /* PBXTargetDependency */,
+			);
+			name = CHEnvirSwitcherDemoTests;
+			productName = CHEnvirSwitcherDemoTests;
+			productReference = D37322B71D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D37322C11D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37322D11D3DC55700C47DD9 /* Build configuration list for PBXNativeTarget "CHEnvirSwitcherDemoUITests" */;
+			buildPhases = (
+				D37322BE1D3DC55700C47DD9 /* Sources */,
+				D37322BF1D3DC55700C47DD9 /* Frameworks */,
+				D37322C01D3DC55700C47DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37322C41D3DC55700C47DD9 /* PBXTargetDependency */,
+			);
+			name = CHEnvirSwitcherDemoUITests;
+			productName = CHEnvirSwitcherDemoUITests;
+			productReference = D37322C21D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D37322961D3DC55700C47DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "朱彦君";
+				TargetAttributes = {
+					D373229D1D3DC55700C47DD9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XZ39NEQQXX;
+					};
+					D37322B61D3DC55700C47DD9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D373229D1D3DC55700C47DD9;
+					};
+					D37322C11D3DC55700C47DD9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D373229D1D3DC55700C47DD9;
+					};
+				};
+			};
+			buildConfigurationList = D37322991D3DC55700C47DD9 /* Build configuration list for PBXProject "CHEnvirSwitcherDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D37322951D3DC55700C47DD9;
+			productRefGroup = D373229F1D3DC55700C47DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D373229D1D3DC55700C47DD9 /* CHEnvirSwitcherDemo */,
+				D37322B61D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests */,
+				D37322C11D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D373229C1D3DC55700C47DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37322B11D3DC55700C47DD9 /* LaunchScreen.storyboard in Resources */,
+				D3AC212E1D9E3807005F5D95 /* CHEnviroConfigure.plist in Resources */,
+				D37322AE1D3DC55700C47DD9 /* Assets.xcassets in Resources */,
+				D37322AC1D3DC55700C47DD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37322B51D3DC55700C47DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37322C01D3DC55700C47DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D373229A1D3DC55700C47DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AC212D1D9E3807005F5D95 /* CHChangeEnvironmentView.m in Sources */,
+				D37322A91D3DC55700C47DD9 /* CHViewController.m in Sources */,
+				D37322A61D3DC55700C47DD9 /* CHAppDelegate.m in Sources */,
+				D3AC212C1D9E3807005F5D95 /* CHAboutUsController.m in Sources */,
+				D37322A31D3DC55700C47DD9 /* main.m in Sources */,
+				D3AC21301D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.m in Sources */,
+				D3AC212F1D9E3807005F5D95 /* CHEnvironmentSupply.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37322B31D3DC55700C47DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37322BC1D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37322BE1D3DC55700C47DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37322C71D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D37322B91D3DC55700C47DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D373229D1D3DC55700C47DD9 /* CHEnvirSwitcherDemo */;
+			targetProxy = D37322B81D3DC55700C47DD9 /* PBXContainerItemProxy */;
+		};
+		D37322C41D3DC55700C47DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D373229D1D3DC55700C47DD9 /* CHEnvirSwitcherDemo */;
+			targetProxy = D37322C31D3DC55700C47DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D37322AA1D3DC55700C47DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37322AB1D3DC55700C47DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D37322AF1D3DC55700C47DD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37322B01D3DC55700C47DD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D37322C91D3DC55700C47DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D37322CA1D3DC55700C47DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D37322CC1D3DC55700C47DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CHEnvirSwitcherDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxiong.suibiandada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D37322CD1D3DC55700C47DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CHEnvirSwitcherDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxiong.suibiandada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D37322CF1D3DC55700C47DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHEnvirSwitcherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxiong.CHEnvirSwitcherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHEnvirSwitcherDemo.app/CHEnvirSwitcherDemo";
+			};
+			name = Debug;
+		};
+		D37322D01D3DC55700C47DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHEnvirSwitcherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxiong.CHEnvirSwitcherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHEnvirSwitcherDemo.app/CHEnvirSwitcherDemo";
+			};
+			name = Release;
+		};
+		D37322D21D3DC55700C47DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CHEnvirSwitcherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxiong.CHEnvirSwitcherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CHEnvirSwitcherDemo;
+			};
+			name = Debug;
+		};
+		D37322D31D3DC55700C47DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CHEnvirSwitcherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxiong.CHEnvirSwitcherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CHEnvirSwitcherDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D37322991D3DC55700C47DD9 /* Build configuration list for PBXProject "CHEnvirSwitcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37322C91D3DC55700C47DD9 /* Debug */,
+				D37322CA1D3DC55700C47DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37322CB1D3DC55700C47DD9 /* Build configuration list for PBXNativeTarget "CHEnvirSwitcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37322CC1D3DC55700C47DD9 /* Debug */,
+				D37322CD1D3DC55700C47DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37322CE1D3DC55700C47DD9 /* Build configuration list for PBXNativeTarget "CHEnvirSwitcherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37322CF1D3DC55700C47DD9 /* Debug */,
+				D37322D01D3DC55700C47DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37322D11D3DC55700C47DD9 /* Build configuration list for PBXNativeTarget "CHEnvirSwitcherDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37322D21D3DC55700C47DD9 /* Debug */,
+				D37322D31D3DC55700C47DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D37322961D3DC55700C47DD9 /* Project object */;
+}
