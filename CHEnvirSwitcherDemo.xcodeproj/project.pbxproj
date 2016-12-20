@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF12BD24C43D1FB33C9C226F /* libPods-CHEnvirSwitcherDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFA67C89D2358A741E3CAE0 /* libPods-CHEnvirSwitcherDemo.a */; };
 		D37322A31D3DC55700C47DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D37322A21D3DC55700C47DD9 /* main.m */; };
 		D37322A61D3DC55700C47DD9 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D37322A51D3DC55700C47DD9 /* CHAppDelegate.m */; };
 		D37322A91D3DC55700C47DD9 /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37322A81D3DC55700C47DD9 /* CHViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EFA67C89D2358A741E3CAE0 /* libPods-CHEnvirSwitcherDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHEnvirSwitcherDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2DF0B497C2C23F10BCE365 /* Pods-CHEnvirSwitcherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHEnvirSwitcherDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHEnvirSwitcherDemo/Pods-CHEnvirSwitcherDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D373229E1D3DC55700C47DD9 /* CHEnvirSwitcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHEnvirSwitcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37322A21D3DC55700C47DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D37322A41D3DC55700C47DD9 /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		D3AC21291D9E3807005F5D95 /* CHEnvironmentSupply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHEnvironmentSupply.m; sourceTree = "<group>"; };
 		D3AC212A1D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EnvironmentSwitcher.h"; sourceTree = "<group>"; };
 		D3AC212B1D9E3807005F5D95 /* UIViewController+EnvironmentSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EnvironmentSwitcher.m"; sourceTree = "<group>"; };
+		E101BBA9BD0E3A65F8A65B63 /* Pods-CHEnvirSwitcherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHEnvirSwitcherDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHEnvirSwitcherDemo/Pods-CHEnvirSwitcherDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF12BD24C43D1FB33C9C226F /* libPods-CHEnvirSwitcherDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8133093B1319B17A91DF456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA67C89D2358A741E3CAE0 /* libPods-CHEnvirSwitcherDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D37322951D3DC55700C47DD9 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +113,8 @@
 				D37322BA1D3DC55700C47DD9 /* CHEnvirSwitcherDemoTests */,
 				D37322C51D3DC55700C47DD9 /* CHEnvirSwitcherDemoUITests */,
 				D373229F1D3DC55700C47DD9 /* Products */,
+				D3CD06AFC1752F6B78D8BCC5 /* Pods */,
+				B8133093B1319B17A91DF456 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +186,15 @@
 			path = CHEnvirSwitcherService;
 			sourceTree = "<group>";
 		};
+		D3CD06AFC1752F6B78D8BCC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DF0B497C2C23F10BCE365 /* Pods-CHEnvirSwitcherDemo.debug.xcconfig */,
+				E101BBA9BD0E3A65F8A65B63 /* Pods-CHEnvirSwitcherDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D37322CB1D3DC55700C47DD9 /* Build configuration list for PBXNativeTarget "CHEnvirSwitcherDemo" */;
 			buildPhases = (
+				2B3D8505BC2661CAAA7E42A8 /* [CP] Check Pods Manifest.lock */,
 				D373229A1D3DC55700C47DD9 /* Sources */,
 				D373229B1D3DC55700C47DD9 /* Frameworks */,
 				D373229C1D3DC55700C47DD9 /* Resources */,
+				75A9973B867F6EB0E79040FD /* [CP] Embed Pods Frameworks */,
+				4A74E5AEEC79CD6E4389A04D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +324,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B3D8505BC2661CAAA7E42A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A74E5AEEC79CD6E4389A04D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHEnvirSwitcherDemo/Pods-CHEnvirSwitcherDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A9973B867F6EB0E79040FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHEnvirSwitcherDemo/Pods-CHEnvirSwitcherDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D373229A1D3DC55700C47DD9 /* Sources */ = {
@@ -450,6 +525,7 @@
 		};
 		D37322CC1D3DC55700C47DD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2DF0B497C2C23F10BCE365 /* Pods-CHEnvirSwitcherDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -463,6 +539,7 @@
 		};
 		D37322CD1D3DC55700C47DD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E101BBA9BD0E3A65F8A65B63 /* Pods-CHEnvirSwitcherDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

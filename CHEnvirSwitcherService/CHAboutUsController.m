@@ -26,27 +26,9 @@
     return self;
 }
 
-- (void)addSubviews{
-    
-    
-    self.mainWebView = [[UIWebView alloc] init];
-    
-    
-    self.mainWebView.frame = CGRectMake(0, 0 , self.view.frame.size.width, self.view.frame.size.height);
-    
-    [self.view addSubview:self.mainWebView];
-    
-    NSURLRequest *request = [NSURLRequest requestWithURL:self.url];
-    
-    [self.mainWebView loadRequest:request];
-    
-    
-}
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    
-    [self addSubviews];
     
     [self setUpPassLockBtn];
     

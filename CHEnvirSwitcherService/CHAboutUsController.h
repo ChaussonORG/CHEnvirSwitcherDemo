@@ -7,21 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface CHAboutUsController : UIViewController
-
-@property (nonatomic, strong)NSURL *url;
-
-@property (nonatomic, strong)UIWebView *mainWebView;
+#import <CHWebView/CHWebViewController.h>
+@interface CHAboutUsController : CHWebViewController
 
 
-- (instancetype)init __unavailable;
-+ (instancetype)new __unavailable;
-
-/**
- * @brief 根据远端URL地址加载
- */
-- (instancetype)initWithURL:(NSString *)url;
 
 
 @end
